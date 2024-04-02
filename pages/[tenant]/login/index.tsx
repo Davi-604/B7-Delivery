@@ -45,7 +45,7 @@ const Login = (data: Props) => {
             email: 'Davimedeiroscv1001@gmail.com',
         });
 
-        router.push(`/${tenant?.slug}`);
+        router.back();
     };
     return (
         <div className="py-10 px-6">
